@@ -158,11 +158,13 @@ type TransformID struct {
 }
 
 var (
-	ExclC14N  = TransformID{ptr: C.xmlSecTransformExclC14NGetKlass()}
-	Enveloped = TransformID{ptr: C.xmlSecTransformEnvelopedGetKlass()}
-	InclC14N  = TransformID{ptr: C.xmlSecTransformInclC14NGetKlass()}
-	Sha1      = TransformID{ptr: C.MY_Sha1Id()}
-	RsaSha1   = TransformID{ptr: C.MY_RsaSha1Id()}
+	ExclC14N     = TransformID{ptr: C.xmlSecTransformExclC14NGetKlass()}
+	Enveloped    = TransformID{ptr: C.xmlSecTransformEnvelopedGetKlass()}
+	InclC14N     = TransformID{ptr: C.xmlSecTransformInclC14NGetKlass()}
+	Sha1         = TransformID{ptr: C.MY_Sha1Id()}
+	RsaSha1      = TransformID{ptr: C.MY_RsaSha1Id()}
+	Gost2012_256 = TransformID{ptr: C.xmlSecTransformGostR3410_2012GostR3411_2012_256GetKlass()}
+	Gost2012_512 = TransformID{ptr: C.xmlSecTransformGostR3410_2012GostR3411_2012_512GetKlass()}
 )
 
 // XMLSecInit initializes xmlsec by calling the various initilizers.
