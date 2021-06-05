@@ -25,9 +25,9 @@ import (
   "os"
 
   "github.com/lestrrat-go/libxml2/parser"
-  "github.com/lestrrat-go/xmlsec"
-  "github.com/lestrrat-go/xmlsec/crypto"
-  "github.com/lestrrat-go/xmlsec/dsig"
+  "github.com/reb00ter/xmlsec"
+  "github.com/reb00ter/xmlsec/crypto"
+  "github.com/reb00ter/xmlsec/dsig"
 )
 
 func ExampleSignature_Sign() {
