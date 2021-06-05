@@ -3,9 +3,9 @@ package dsig
 import (
 	"github.com/lestrrat-go/libxml2/parser"
 	"github.com/lestrrat-go/libxml2/xpath"
-	"github.com/lestrrat-go/xmlsec"
-	"github.com/lestrrat-go/xmlsec/clib"
-	"github.com/lestrrat-go/xmlsec/crypto"
+	"github.com/reb00ter/xmlsec"
+	"github.com/reb00ter/xmlsec/clib"
+	"github.com/reb00ter/xmlsec/crypto"
 )
 
 func NewSignatureVerify() (*SignatureVerify, error) {

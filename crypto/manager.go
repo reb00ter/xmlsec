@@ -4,7 +4,7 @@ import (
 	"crypto/rsa"
 
 	"github.com/lestrrat-go/libxml2/types"
-	"github.com/lestrrat-go/xmlsec/clib"
+	"github.com/reb00ter/xmlsec/clib"
 )
 
 func NewKeyManager() (*KeyManager, error) {

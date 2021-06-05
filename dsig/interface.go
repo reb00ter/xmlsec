@@ -2,8 +2,8 @@ package dsig
 
 import (
 	"github.com/lestrrat-go/libxml2/types"
-	"github.com/lestrrat-go/xmlsec/clib"
-	"github.com/lestrrat-go/xmlsec/crypto"
+	"github.com/reb00ter/xmlsec/clib"
+	"github.com/reb00ter/xmlsec/crypto"
 )
 
 type TransformID clib.TransformID
